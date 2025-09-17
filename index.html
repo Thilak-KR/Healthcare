@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthcare App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Healthcare App Prototype</h1>
+
+    <section>
+      <h2>Emergency Alert</h2>
+      <input type="text" id="emergencyInput" placeholder="Enter emergency message">
+      <input type="text" id="locationInput" placeholder="Enter location">
+      <button id="addEmergencyBtn">Send SOS</button>
+      <ul id="emergencyList"></ul>
+    </section>
+
+    <section>
+      <h2>Medication Reminder</h2>
+      <input type="text" id="medName" placeholder="Medicine Name">
+      <input type="time" id="medTime">
+      <button id="addMedBtn">Add Medicine</button>
+      <ul id="medList"></ul>
+    </section>
+
+    <section>
+      <h2>AI Chatbot Assistant</h2>
+      <input type="text" id="chatInput" placeholder="Enter symptoms comma separated">
+      <button id="chatBtn">Analyze</button>
+      <div id="chatResult"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
